@@ -1,3 +1,9 @@
+
+docker build -t beef .
+docker run -p 3000:3000 -p 6789:6789 -p 61985:61985 -p 61986:61986 --name beef beef
+http://localhost:3000/ui/panel
+<script src="http://127.0.0.1:3000/hook.js"></script>
+
 ===============================================================================
 
     Copyright (c) 2006-2025 Wade Alcorn - wade@bindshell.net
